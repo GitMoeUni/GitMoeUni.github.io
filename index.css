@@ -1,21 +1,75 @@
-* {
-      background-color: #333333;
-    }
+html {
+	display: block;
+}
 
-    .center {
-    	display: block;
-    	margin: 0 auto;
-    	width: 50%;
-    }
-    
-    body {
-    text-align: center;
-	}
+body {
+	background-color: gainsboro;
+	display: block;
+	margin: 8px;
+	font-family: Arial, sans-serif;
+}
 
-	.centered-heading {
-    	display: inline-block;
-    	padding: 10px;
-    	color: white;
-    	border-radius: 5px;
-    	font-family: Helvetica;
-    	font-size: 50px;
+h1 {
+	text-align: center;
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+	unicode-bidi: isolate;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	unicode-bidi: isolate;
+	color: rebeccapurple;
+}
+
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+    background-color: plum;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+td {
+    border-top: 1px solid darkorchid;
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
