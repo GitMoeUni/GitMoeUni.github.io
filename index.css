@@ -1,0 +1,21 @@
+* {
+      background-color: #333333;
+    }
+
+    .center {
+    	display: block;
+    	margin: 0 auto;
+    	width: 50%;
+    }
+    
+    body {
+    text-align: center;
+	}
+
+	.centered-heading {
+    	display: inline-block;
+    	padding: 10px;
+    	color: white;
+    	border-radius: 5px;
+    	font-family: Helvetica;
+    	font-size: 50px;
